@@ -1,3 +1,4 @@
+@tag1
 Feature: Advanced Calculator Operations
 
   Scenario Outline: Performing arithmetic operations between two numbers

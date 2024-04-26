@@ -1,4 +1,4 @@
-# گزارش کار تست‌نویسی برای پروژه ماشین حساب
+![image](https://github.com/amirt098/SoftWareLabBDDProject/assets/62212725/8acd6fa5-bad9-4964-9567-83dfc00f97aa)# گزارش کار تست‌نویسی برای پروژه ماشین حساب
 
 ## تیم توسعه
 - **محمد جواد علاءالدینی**
@@ -20,15 +20,22 @@
 
 ## مواجهه با خطاهای Undefined
 پس از نوشتن سناریوها، با اجرای تست‌ها در IntelliJ IDEA، با خطاهای `undefined` برای هر یک از مراحل تست مواجه شدیم. این خطاها نشان‌دهنده نبود پیاده‌سازی مربوط به هر مرحله از سناریوها بودند.
+![image](https://github.com/amirt098/SoftWareLabBDDProject/assets/62212725/eb9c0bfa-3441-473b-aa6f-a4ba26d29a9b)
+
+![image](https://github.com/amirt098/SoftWareLabBDDProject/assets/62212725/869765f6-81ad-49dd-971c-123d9cb72843)
+
 
 ## پیاده‌سازی Step Definitions
 برای رفع خطاهای `undefined`، پیاده‌سازی مراحل مورد نیاز در کلاس `CalculatorSteps` انجام شد. این پیاده‌سازی شامل تعریف متدهایی با آنوتیشن‌های `Given`, `@When@`, و `Then@` بود که منطبق با مراحل تعریف شده در فایل‌های فیچر هستند.
+![image](https://github.com/amirt098/SoftWareLabBDDProject/assets/62212725/aeb7e0e9-8e53-4bbb-a13c-a08e5e4a7e3b)
+
 
 ## نتایج تست‌ها
 پس از پیاده‌سازی کامل step definitions، تست‌ها مجدداً اجرا شدند و همه تست‌ها با موفقیت پاس شدند. این نتیجه نشان‌دهنده صحت عملکرد ماشین حساب برای عملیات‌های تعریف شده در سناریوها بود.
+![image](https://github.com/amirt098/SoftWareLabBDDProject/assets/62212725/720da959-0c7b-43b4-8ad5-cd2275ad6d6a)
 
 ## جمع‌بندی
-فرآیند توسعه تست‌ها با استفاده از رویکرد Behavior-Driven Development (BDD) و ابزارهای Cucumber و JUnit، به تیم توسعه امکان داد تا تست‌هایی دقیق و مطابق با رفتار مورد انتظار از ماشین حساب توسعه دهند. این رویکرد همچنین تسهیل‌کننده همکاری بین توسعه‌دهندگان و تیم QA بوده و به افزایش کیفیت نرم‌افزار کمک کرده است.
+فرآیند توسعه تست‌ها با استفاده از رویکرد Behavior-Driven Development (BDD) و ابزارهای Cucumber و JUnit، به تیم توسعه امکان داد تا تست‌هایی دقیق و مطابق با رفتار مورد انتظار از ماشین حساب توسعه دهند. همچنین یونیت تست ها نیز در کلاس های تست برای انواع سناریو ها نوشته شده است تا تابع های پروژه تست شوند.
 
 
-![image](https://github.com/amirt098/SoftWareLabBDDProject/assets/62212725/720da959-0c7b-43b4-8ad5-cd2275ad6d6a)
+
